@@ -1,0 +1,74 @@
+body {
+   
+    text-align: center;
+  }
+  
+  header {
+  
+    padding: 10px;
+  }
+  
+  header img {
+    width: 30%;
+    height: auto;
+  }
+  
+  .social-buttons{
+    padding-bottom: 50px;
+  }
+  
+  .social-buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 30px 0px 10px;
+    box-shadow:  1px 1px 5px #8888;
+    border-radius: 8px;
+    background-color: #fff;
+    font-family: Verdana;
+    transition: box-shadow 0.3s ease;
+  }
+
+  .social-buttons div a {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 20%;
+    padding: 30px 10px 10px;
+    box-shadow:  1px 1px 5px #8888;
+    border-radius: 8px;
+    background-color: #fff;
+    font-family: Verdana;
+    transition: box-shadow 0.3s ease;
+  }
+
+
+  .social-buttons a:hover {
+    box-shadow: 8px 8px 40px #8888;
+  }
+    
+  .social-buttons h1 {
+
+    margin: 10px;
+    color: black;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    font-size: medium;
+    font-size: 16px;
+  }
+
+
+  .social-buttons a span h3{
+    font-size: medium;
+    font-family: Verdana;
+    color: black;
+  
+    font-size:small;
+  }
+
+/* Media Query for header image on smaller screens */
+@media (max-width: 600px) {
+  header img {
+    width: 60%; /* Adjust the image size for smaller screens */
+  }
+}
