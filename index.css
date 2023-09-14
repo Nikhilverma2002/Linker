@@ -2,10 +2,10 @@ body {
    
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+
   }
   
   header {
-  
     padding: 10px;
   }
   
@@ -26,6 +26,7 @@ body {
     border-radius: 8px;
     background-color: #fff;
     transition: box-shadow 0.3s ease;
+    text-decoration: none;
   }
 
   .social-buttons div a {
@@ -66,6 +67,7 @@ body {
 /* Media Query for header image on smaller screens */
 @media (max-width: 600px) {
   header img {
-    width: 60%; /* Adjust the image size for smaller screens */
+    width: 60%;
   }
 }
+
